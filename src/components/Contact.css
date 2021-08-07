@@ -1,0 +1,40 @@
+.contact {
+    display: flex;
+}
+.contact__name {
+    display: inline;
+    margin-right: 2rem;
+}
+.contact__number {
+    margin-right: 2rem;
+    display: inline;
+}
+.contact__delete {
+    margin-left: 2rem;
+}
+.modal {
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+.modal__name {
+    margin-bottom: 2rem;
+}
+.modal__number {
+    margin-bottom: 2rem;
+}
+
+.contact__delete {
+    background: #000;
+    color: #fff
+}
